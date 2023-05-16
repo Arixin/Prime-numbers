@@ -22,13 +22,6 @@ def lucas_lehmer_test(p):
         if S == 0:
             return True
 
-#
-# counter1 = 0
-# for i in range(9000000, 10000001):
-#     if is_prime(i):
-#         print(i)
-#         counter1 += 1
-# print(f"Ilosc liczb pierwszych metoda probnego dzielenia: { counter1 }\n")
 
 counter2 = 0
 for i in range(2,32):
